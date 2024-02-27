@@ -1,0 +1,385 @@
+// =========================================================================
+
+.hero {
+	&__header-block {
+		&::after {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+		}
+		&._active::after {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+
+		.header-block {
+			&__title {
+				transform: translate(0, -10px);
+				opacity: 0;
+				transition: all 0.9s 0.2s ease-out;
+				&._active {
+					transform: translate(0, 0);
+					opacity: 1;
+				}
+			}
+
+			&__text {
+				transform: translate(0, -10px);
+				opacity: 0;
+				transition: all 0.9s 0.4s ease-out;
+				&._active {
+					transform: translate(0, 0);
+					opacity: 1;
+				}
+			}
+
+			&__action {
+			}
+		}
+	}
+}
+.action-header-block {
+	&__link {
+		transform: translate(0, -10px);
+		opacity: 0;
+		transition: all 0.9s 0.4s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+
+	&__button {
+		transform: translate(0, -10px);
+		opacity: 0;
+		transition: all 0.9s 0.5s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+}
+
+.anim-1 {
+	transform: translate(0, -10px);
+	opacity: 0;
+	transition: all 0.9s 0.4s ease-out;
+	&._active {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+.anim-2 {
+	transform: translate(0, -10px);
+	opacity: 0;
+	transition: all 0.9s 0.5s ease-out;
+	&._active {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+.anim-3 {
+	transform: translate(0, -10px);
+	opacity: 0;
+	transition: all 0.9s 0.6s ease-out;
+	&._active {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+.anim-4 {
+	transform: translate(0, -10px);
+	opacity: 0;
+	transition: all 0.9s 0.7s ease-out;
+	&._active {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+// =========================================================================
+
+.partners {
+	&__title {
+		transform: translate(0, 0);
+		opacity: 0;
+		transition: all 0.9s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+
+	&__link {
+		&:nth-child(1) {
+			transform: translate(0, 0);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+		&:nth-child(2) {
+			transform: translate(0, 0);
+			opacity: 0;
+			transition: all 0.9s 0.3s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+		&:nth-child(3) {
+			transform: translate(0, 0);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+		&:nth-child(4) {
+			transform: translate(0, 0);
+			opacity: 0;
+			transition: all 0.9s 0.5s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+		&:nth-child(5) {
+			transform: translate(0, 0);
+			opacity: 0;
+			transition: all 0.9s 0.6s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// =========================================================================
+
+.services__header-block {
+	.header-block {
+		&__lable {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__title {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.3s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__text {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__link {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.5s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// =========================================================================
+
+.why__header-block {
+	.header-block {
+		&__lable {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.1s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__title {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__text {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.3s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// =========================================================================
+
+.andvantages {
+	&__image {
+		transform: translate(0, -10px);
+		opacity: 0;
+		transition: all 0.9s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+}
+
+// =========================================================================
+
+.testimonials__header-block {
+	.header-block {
+		&__lable {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__title {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__body {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__text {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__link {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.4s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.item-testimonials {
+	&__author {
+		transform: translate(0, -10px);
+		opacity: 0;
+		transition: all 0.9s 0.6s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+
+	&__title {
+		transform: translate(0, -10px);
+		opacity: 0;
+		transition: all 0.9s 0.6s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+
+	&__text {
+		transform: translate(0, -10px);
+		opacity: 0;
+		transition: all 0.9s 0.6s ease-out;
+		&._active {
+			transform: translate(0, 0);
+			opacity: 1;
+		}
+	}
+}
+
+// =========================================================================
+
+.blog__header-block {
+	.header-block {
+		&__lable {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+		&__title {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__body {
+			transform: translate(0, -10px);
+			opacity: 0;
+			transition: all 0.9s 0.2s ease-out;
+			&._active {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		&__text {
+		}
+
+		&__link {
+		}
+	}
+}

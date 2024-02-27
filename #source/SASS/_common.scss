@@ -1,0 +1,93 @@
+// ?font-size: calc(10px + (50 - 10) * ((100vw - 320px) / (1330 - 320)));
+
+// *=========================================================================
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: $dark-white;
+	font-weight: 400;
+	background-color: $darck-blue;
+	@media (max-width: 1310px) {
+		font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1310 - 320)));
+	}
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: clip;
+}
+
+[class*='__container'] {
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.pages {
+	flex: 1 1 auto;
+}
+
+// *defalt settings =============================================================
+
+.button {
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: $white;
+	padding: 15px 33px;
+	border-radius: 50px;
+	letter-spacing: 1.3px;
+	line-height: 1.58;
+	transition: background-color 0.5s ease;
+	&--blue {
+		background-color: $blue;
+		@media (min-width: 767.98px) {
+			&:hover {
+				background-color: #fff;
+				color: $darck-blue;
+			}
+		}
+	}
+	&--darck {
+		background-color: $darck-transition;
+		&:hover {
+			background-color: #fff;
+			color: $darck-blue;
+		}
+	}
+}
+
+.lable {
+	text-transform: uppercase;
+	display: inline-block;
+	border: 1px solid rgba(129, 129, 139, 0.2);
+	border-radius: 12px;
+	padding: 11px 19px;
+	color: rgb(156, 156, 156);
+	transition: all 0.5s ease-out;
+	@media (min-width: 767.98px) {
+		&:hover {
+			color: $white;
+			border: 1px solid $white;
+		}
+	}
+}
+
+.title {
+	font-size: 51px;
+	font-weight: 500;
+	line-height: 117.307692%;
+	color: $white;
+	@media (max-width: 767.98px) {
+		font-size: calc(41px + (51 - 41) * ((100vw - 320px) / (767 - 320)));
+	}
+}
+.text {
+	font-weight: 300;
+	line-height: 130%; /* 27/18 */
+}
+
+// *defalt settings =============================================================
